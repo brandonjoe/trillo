@@ -1,0 +1,60 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.tokenColorCustomizations": {
+        "textMateRules":[
+            
+            {
+                "name": "[CSS] - support constant",
+                "scope": [
+                  "support.constant.property-value.css"
+                ],
+                "settings": {
+                  "foreground": "#9BDDC3"
+                }
+            },
+            {
+                "name": "[CSS] - support misc function",
+                "scope": [
+                  "support.function.misc.scss"
+                ],
+                "settings": {
+                  "foreground": "#CFB5E1"
+                }
+              },
+              {
+                "name": "[CSS] - Support",
+                "scope": [
+                  "source.css support",
+                  "source.stylus support"
+                ],
+                "settings": {
+                  "foreground": "#9BDDC3"
+                }
+              },
+              {
+                "name": "Meta",
+                "scope": "meta",
+                "settings": {
+                  "foreground": "#CFD679"
+                }
+              },
+              {
+                "name": "[CSS] - units",
+                "scope": [
+                  "keyword.other.unit.px.css",
+                  "keyword.other.unit.percentage.css",
+                  "constant.other.color.rgb-value.hex.css",
+                  "keyword.other.unit.ms.css",
+                  "keyword.other.unit.s.css",
+                  "keyword.other.unit.vh.css",
+                  "keyword.other.unit.vw.css",
+                  "keyword.other.unit.deg.css"
+                ],
+                "settings": {
+                  "foreground": "#5ec4ff"
+                }
+              },
+              
+         ]
+    }  
+}
